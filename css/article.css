@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* -- не менять --*/
+div.base {
+    position: relative;
+    width: 735px;
+    margin: 0 auto;
+    left: -25px;
+    background: #eeeff4;
+    color: inherit;
+    }
+/* -- не менять --*/
+
+div.base > img {
+	display : block;
+	width : 100%;
+	height : auto;
+	}
+	
+div.base > div {
+    padding : 15px 30px;
+    overflow : hidden;
+	}
+	
+div.base > div > p.preamble,
+div.base > div > div > span {
+	font : 400 16px/20px 'Roboto', Arial, Tahoma, Verdana, sans-serif;		
+	}
+	
+div.base > div > div {
+	position : relative;
+	padding : 20px 0 0 110px;
+	}
+	
+div.base > div > div > div {
+	position : absolute;
+	top : 20px;
+	left : 0;
+	z-index : 10;
+	width : 100px;
+	height : 100px;
+	}
+	
+div.base > div > div > div > img {
+	width : inherit;
+	height : inherit;	
+	}

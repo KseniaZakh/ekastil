@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* -- не менять --*/
+div.base {
+    position: relative;
+    width: 735px;
+    margin: 0 auto;
+    left: -25px;
+    background: #eeeff4;
+    color: inherit;
+    }
+/* -- не менять --*/
+
+  .main_picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 5px 30px 15px;
+    box-sizing: border-box;
+  }
+
+  #preamble {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .season_title_group {
+    display: flex;
+    width: 100%;
+    margin: 40px 0 30px;
+  }
+
+  .season_title {
+    width: 265px;
+    height: 242px;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 242px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  .spring {
+    background: #ebc22a url(../img/spring_layer.jpg);
+  }
+
+  .summer {
+    background: #102e6a url(../img/summer_layer.jpg);
+  }
+
+  .autumn {
+    background: #c0a761 url(../img/autumn_layer.jpg);
+  }
+
+  .winter {
+    background: #1a3c74 url(../img/winter_layer.jpg);
+  }
+
+  .season_examples, .content > p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .season_examples {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .season_examples_item {
+    width: 130px;
+  }
+
+  .season_examples_name {
+    display: block;
+    text-align: center;
+    margin: 10px -5px;
+  }
+
+  .season_examples_item:nth-child(2) > span {
+    margin-left: -22px;
+    margin-right: -22px;
+  }
+
+  p:nth-last-child(2) {
+    padding-bottom: 40px;
+  }
+
+  .postscriptum {
+    font-weight: bold;
+    padding-top: 20px;
+    border-top: 2px solid #b3c3d3;
+  }
