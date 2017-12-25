@@ -41,7 +41,7 @@ div.base {
     text-align: center;
     line-height: 242px;
     color: #ffffff;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
   }
 
   .spring {
@@ -92,7 +92,8 @@ div.base {
   }
 
   .postscriptum {
-    font-weight: bold;
-    padding-top: 20px;
+    font-size: 18px !important;
+    padding-top: 30px;
+    padding-right: 120px;
     border-top: 2px solid #b3c3d3;
   }
